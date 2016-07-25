@@ -27,3 +27,27 @@ a{text-decoration:none}
 	border-top-left-radius: 25px;
 	border-top-right-radius: 65px 65px;
 }
+
+#simple-square{
+	border: solid 1px black;
+}
+
+/*编辑内容和内容互动样式*/
+＃edit{
+	width: 30em;
+	height: 20em;
+	border:solid 0.1em #000;
+	/*内容溢出时需要做的处理*/
+	overflow: auto;  
+}
+
+/*扩展喂Android，chrome，firefox，IOS，和Safari中的placeholder属性定制样式*/
+::-webkit-input-placeholder{
+	color:aliceblue;
+	background-color: #ccc;
+};
+
+：－moz-placeholder{
+	color:aliceblue;
+	background-color: #ccc;
+}

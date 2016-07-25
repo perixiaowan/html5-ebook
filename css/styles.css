@@ -34,7 +34,7 @@ body {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   background: #444 url("debut_dark.png") repeat;
-  color: #666;
+/*  color: #666;*/
   font: normal 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
